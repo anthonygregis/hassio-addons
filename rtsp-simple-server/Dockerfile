@@ -1,4 +1,4 @@
-FROM aler9/rtsp-simple-server AS rtsp
+FROM aler9/rtsp-simple-server:latest AS rtsp
 
 COPY --from=rtsp /rtsp-simple-server /
 COPY rtsp-simple-server.yml /
