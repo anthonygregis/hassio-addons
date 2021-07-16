@@ -1,8 +1,8 @@
 {
   "name": "Ring Livestream",
-  "version": "1.36",
+  "version": "1.37",
   "slug": "ringlivestream",
-  "description": "A Home Assistant add-on to enable live streams of Ring Cameras.",
+  "description": "A motherfucking Home Assistant add-on to enable live streams of Ring Cameras.",
   "url": "https://github.com/anthonygregis/ring-hassio",
   "startup": "application",
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],

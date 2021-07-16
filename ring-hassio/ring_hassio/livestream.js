@@ -224,9 +224,7 @@ function startStream() {
               // If Accessing The Main Page
               if (uri == "/index.html" || uri == "/") {
                 res.writeHead(200, { "Content-Type": "text/html" });
-                res.write(
-                  "<html><head><title>Ring Livestream</title></head><body>"
-                );
+                res.write("<html><head><title>MOTHERFUCK</title></head><body>");
                 res.write("<h1>Welcome to your Ring Livestream!</h1>");
                 res.write(
                   '<video width="352" height="198" controls autoplay src="public/stream.m3u8"></video>'
