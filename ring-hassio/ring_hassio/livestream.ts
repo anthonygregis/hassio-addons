@@ -168,7 +168,7 @@ async function startStream() {
       "zerolatency",
       "-b",
       "600k",
-      "rtsp://localhost:8554/mystream",
+      "rtsp://192.168.1.5:8554/mystream",
     ],
   });
 
