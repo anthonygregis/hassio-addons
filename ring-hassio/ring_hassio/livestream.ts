@@ -150,7 +150,7 @@ async function startStream() {
     // Extend socket lifetime for demo purposes
     socket.setTimeout(4000);
   });
-  console.log("Started server, listening on port " + PORT + ".");
+  console.log("Started server, listening on portsss " + PORT + ".");
 
   if (!(await promisify(fs.exists)(publicOutputDirectory))) {
     await promisify(fs.mkdir)(publicOutputDirectory);
