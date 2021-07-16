@@ -1,0 +1,5 @@
+{
+  "build_from": {
+    "amd64": "aler9/rtsp-simple-server"
+  }
+}

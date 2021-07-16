@@ -1,0 +1,16 @@
+{
+  "name": "RTS2P",
+  "version": "1",
+  "slug": "rts2p",
+  "url": "https://github.com/anthonygregis/hassio-addons/tree/master/rtsp-simple-server",
+  "description": "RTSP Simple Server",
+  "arch": ["amd64"],
+  "startup": "services",
+  "map": ["share"],
+  "ports": {
+    "8554/tcp": 8554
+  },
+  "ports_description": {
+    "8554/tcp": "RTSP Simple Server Port"
+  }
+}
